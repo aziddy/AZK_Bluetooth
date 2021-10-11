@@ -1,6 +1,8 @@
 # AZK_Bluetooth
 Bluetooth Macropad -- Keymaps Configurable over Wifi AP
 
+<Br>
+
 ## Installing ESP32 Boards into Arduino IDE 
 Library Link:
 https://dl.espressif.com/dl/package_esp32_index.json
@@ -11,7 +13,7 @@ Tutorial:
 https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 
 
-
+<Br>
 
 ## ESP32 Bluetooth Library into Arduino IDE 
 
