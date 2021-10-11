@@ -3,6 +3,13 @@ Bluetooth Macropad -- Keymaps Configurable over Wifi AP
 
 <Br>
 
+## Code References:
+-- Only problem is that this guy just made some random bit/byte level system to store keymaps in EEPROM, he should have used C structs stored in EPPROM so he didnt have to waste time making his own data structure to store --
+https://github.com/aziddy/manykey_firmware_arduino
+https://github.com/epbarger/manykey_writer
+
+<Br>
+
 ## Installing ESP32 Boards into Arduino IDE 
 Library Link:
 https://dl.espressif.com/dl/package_esp32_index.json
