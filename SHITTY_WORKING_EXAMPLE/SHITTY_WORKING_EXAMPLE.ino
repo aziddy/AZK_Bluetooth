@@ -13,7 +13,7 @@ int buttonState = 0;
 
 #define DEBOUNCE_DELAY 10
 #define BUTTON_COUNT 8
-int buttonPins[] = {36, 39, 33, 34, 25, 26, 14, 12};
+int buttonPins[] = {17, 16, 2, 15, 25, 26, 14, 12};
 // buttonReadings
 int buttonReadings[] = {0, 0, 0, 0, 0, 0, 0, 0};
 // State
@@ -73,13 +73,13 @@ void updateButtons() {
 
 void pressChars(int button){
   if(button == 0){
-  //  bleKeyboard.print("0");
+   bleKeyboard.print("0");
   } else if (button == 1){
-   // bleKeyboard.print("1");
+   bleKeyboard.print("1");
   } else if (button == 2){
-    //bleKeyboard.print("2");
+   bleKeyboard.print("2");
   } else if (button == 3){
-   // bleKeyboard.print("3");
+   bleKeyboard.print("3");
   } else if (button == 4){
     bleKeyboard.press(KEY_LEFT_GUI);
     bleKeyboard.press('2');
