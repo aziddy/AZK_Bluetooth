@@ -6,9 +6,8 @@
  * shit way the guy who made MANYKEY did)
  */
 
- StaticJsonDocument<1024> doc;
 
- struct SPIFFSaveData {
+struct SPIFFSaveData {
   boolean macroMode; // 1
   boolean ledLights; // 1
   int buttonCount; // 2
