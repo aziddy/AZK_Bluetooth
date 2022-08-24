@@ -1,5 +1,5 @@
 # AZK_Bluetooth
-Bluetooth Macropad -- Keymaps Configurable over Wifi AP
+Bluetooth Macropad -- Keymaps *Configurable over Wifi AP* \****Coming Soon\****
 
 <Br>
 
